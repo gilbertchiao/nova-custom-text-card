@@ -1,0 +1,36 @@
+{
+    "name": "gilbertchiao/nova-custom-text-card",
+    "description": "A Laravel Nova card to customize card heading and content.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "card"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gilbert Chiao",
+            "email": "gilbertchiao@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GilbertChiao\\CustomTextCard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GilbertChiao\\CustomTextCard\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

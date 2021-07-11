@@ -1,0 +1,13 @@
+*~
+.DS_Store
+/.idea
+/.vscode
+
+/node_modules
+/vendor
+.phpunit.result.cache
+composer.phar
+composer.lock
+phpunit.xml
+npm-debug.log
+yarn-error.log
